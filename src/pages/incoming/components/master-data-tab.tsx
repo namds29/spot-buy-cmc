@@ -116,7 +116,7 @@ const MasterDataTab = () => {
                   <Input className='h-[30px]' />
                 </div>
                 <div className='mt-4 flex'>
-                  <span className='mr-3 w-[150px]'>Invoice number:</span>
+                  <span className='mr-3 w-[170px]'>Invoice number:</span>
                   <Input className='h-[30px]' />
                 </div>
                 <div className='mt-4 flex'>
