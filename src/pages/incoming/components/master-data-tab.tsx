@@ -85,12 +85,12 @@ const MasterDataTab = () => {
             <LockKeyhole className='ml-2' size={18} />
           </div>
           <div className='flex w-full h-[calc(100vh-400px)]'>
-            <div className='w-1/2 h-full px-4 py-2'>
+            <div className='w-1/2 h-full px-4 py-2 flex flex-col'>
               <div className='flex justify-between'>
                 <p className='text-lg font-bold'>Invoice data</p>
                 <Button>Edit</Button>
               </div>
-              <div className='overflow-auto h-[400px]'>
+              <div className='overflow-auto flex-1 min-h-0'>
                 <div className='mt-4 flex'>
                   <span className='mr-3'>Name:</span>
                   <Input className='h-[30px]' />
